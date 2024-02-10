@@ -1,0 +1,164 @@
+{
+    "breadcrumbs.enabled": false,
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Linux, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4, NamespaceIndentation: All, FixNamespaceComments: false }",
+    "debug.console.fontSize": 13,
+    "debug.console.fontFamily": "CommitMono Nerd Font, MartianMono Nerd Font, JetbrainsMono Nerd Font, monospace",
+    "debug.disassemblyView.showSourceCode": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.detectIndentation": true,
+    "editor.fontFamily": "MartianMono Nerd Font, Maple Mono NF, JuliaMono, JetbrainsMono Nerd Font, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13.5,
+    "editor.fontWeight": "400",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": false,
+    "editor.guides.indentation": false,
+    "editor.insertSpaces": true,
+    "editor.lineHeight": 1.7,
+    "editor.lineNumbers": "on",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.scale": 2,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on"
+    },
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    "editor.roundedSelection": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.scrollBeyondLastLine": true,
+    "editor.smoothScrolling": true,
+    "editor.suggestSelection": "first",
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.decorations.badges": true,
+    "explorer.fileNesting.enabled": true,
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+    ],
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "git.confirmSync": false,
+    "git.enabled": true,
+    "git.openRepositoryInParentFolders": "always",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "plantuml.exportFormat": "svg",
+    "plantuml.exportOutDir": ".",
+    "plantuml.exportSubFolder": false,
+    "problems.decorations.enabled": true,
+    "symbols.hidesExplorerArrows": false,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 3,
+    "terminal.integrated.fontFamily": "CommitMono Nerd Font, MartianMono Nerd Font, JetbrainsMono Nerd Font, monospace",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontWeight": "500",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.autoDetectColorScheme": true,
+    "window.commandCenter": false,
+    "window.dialogStyle": "custom",
+    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Houston",
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.iconTheme": "symbols",
+    "workbench.preferredDarkColorTheme": "Houston",
+    "workbench.preferredLightColorTheme": "Github Light Theme - Gray",
+    "workbench.productIconTheme": "icons-carbon",
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 20,
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideActivityBar": true,
+    "zenMode.hideLineNumbers": true,
+    "zenMode.hideStatusBar": true,
+    "zenMode.restore": true,
+    "zenMode.showTabs": "none",
+    "zenMode.silentNotifications": false,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.tabSize": 4
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.tabSize": 4
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features",
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 2,
+        "javascript.preferences.quoteStyle": "single"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 2,
+        "javascript.preferences.quoteStyle": "single"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 2,
+        "typescript.preferences.quoteStyle": "single"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 2,
+        "javascript.preferences.quoteStyle": "single"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        "editor.defaultFormatter": "vscode.markdown-language-features"
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/env": true,
+        "**/venv": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/env/**": true,
+        "**/venv/**": true,
+        "env-*": true
+    }
+}
