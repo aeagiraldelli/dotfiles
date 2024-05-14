@@ -1,4 +1,4 @@
-import = ["~/.config/alacritty/themes/themes/tokyo-night.toml"]
+import = ["~/.config/alacritty/themes/themes/citylights.toml"]
 
 [cursor]
 style = { shape = "Block", blinking = "On" }
@@ -8,8 +8,8 @@ thickness = 0.2
 bold = { style = "Bold", family = "MartianMono Nerd Font" }
 bold_italic = { style = "Bold Italic", family = "MartianMono Nerd Font" }
 italic = { style = "Italic", family = "MartianMono Nerd Font" }
-normal = { style = "Regular", family = "MartianMono Nerd Font" }
-offset = { x = 0, y = 5 }
+normal = { style = "Medium", family = "MartianMono Nerd Font" }
+offset = { x = -1, y = 3 }
 size = 11.0
 
 [selection]
@@ -19,6 +19,6 @@ save_to_clipboard = true
 blur = true
 dimensions = { columns = 110, lines = 27 }
 dynamic_padding = true
-opacity = 0.9
+opacity = 0.97
 padding = { x = 7, y = 7 }
 startup_mode = "Windowed"
