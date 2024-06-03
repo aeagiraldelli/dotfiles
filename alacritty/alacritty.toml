@@ -10,7 +10,7 @@ bold_italic = { style = "Bold Italic", family = "BlexMono Nerd Font" }
 italic = { style = "Italic", family = "BlexMono Nerd Font" }
 normal = { style = "Medium", family = "BlexMono Nerd Font" }
 offset = { x = 0, y = 2 }
-size = 14
+size = 13.5
 
 [keyboard]
 bindings = [{ key = "F11", action = "ToggleFullscreen" }]
