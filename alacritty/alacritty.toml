@@ -1,16 +1,16 @@
-import = ["~/.config/alacritty/themes/themes/citylights.toml"]
+import = ["~/.config/alacritty/themes/themes/rose-pine.toml"]
 
 [cursor]
 style = { shape = "Block", blinking = "On" }
 thickness = 0.2
 
 [font]
-bold = { style = "Bold", family = "BlexMono Nerd Font" }
-bold_italic = { style = "Bold Italic", family = "BlexMono Nerd Font" }
-italic = { style = "Italic", family = "BlexMono Nerd Font" }
-normal = { style = "Medium", family = "BlexMono Nerd Font" }
+bold = { style = "Bold", family = "Monocode" }
+bold_italic = { style = "Bold Italic", family = "Monocode" }
+italic = { style = "Italic", family = "Monocode" }
+normal = { style = "Medium", family = "Monocode" }
 offset = { x = 0, y = 2 }
-size = 13.5
+size = 14
 
 [keyboard]
 bindings = [{ key = "F11", action = "ToggleFullscreen" }]
@@ -20,8 +20,9 @@ save_to_clipboard = true
 
 [window]
 blur = true
-dimensions = { columns = 110, lines = 23 }
+dimensions = { columns = 117, lines = 27 }
 dynamic_padding = true
 opacity = 0.95
-padding = { x = 7, y = 7 }
+padding = { x = 3, y = 3 }
 startup_mode = "Windowed"
+decorations = "none"
