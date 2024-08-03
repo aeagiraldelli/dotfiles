@@ -130,6 +130,7 @@ export PATH="$PATH:/usr/local/go/bin"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # bat cli tool
-export BAT_THEME="Coldark-Cold"
+export BAT_THEME="base16-256"
 
 eval $(thefuck --alias)
+export PATH=$HOME/.local/bin:$PATH
