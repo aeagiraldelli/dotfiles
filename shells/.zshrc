@@ -108,17 +108,23 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zshconfig="nvim $HOME/.zshrc"
 alias zshreload="source $HOME/.zshrc"
+# Replace ls command
 if [ -x "$(command -v eza)" ]; then
   alias ls="eza --header --long --icons --git"
 fi
 
+# git repo manager
 if [ -x "$(command -v lazygit)" ]; then
   alias lg="lazygit"
 fi
 
+# Node Version Manager
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Rust environment
+export PATH="$PATH:$HOME/.cargo/bin"
 
 # Golang environment
 export PATH="$PATH:/usr/local/go/bin"
@@ -132,5 +138,5 @@ export PATH="$PATH:/usr/local/go/bin"
 # bat cli tool
 export BAT_THEME="base16-256"
 
-eval $(thefuck --alias)
+# custom binaries
 export PATH=$HOME/.local/bin:$PATH
