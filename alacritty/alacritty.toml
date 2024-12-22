@@ -1,14 +1,17 @@
-import = ["~/.config/alacritty/themes/themes/rose-pine.toml"]
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/nordic.toml"
+]
 
 [cursor]
 style = { shape = "Block", blinking = "On" }
 thickness = 0.2
 
 [font]
-bold = { style = "Bold", family = "Monocode" }
-bold_italic = { style = "Bold Italic", family = "Monocode" }
-italic = { style = "Italic", family = "Monocode" }
-normal = { style = "Medium", family = "Monocode" }
+bold = { style = "Bold", family = "MapleMono Nerd Font" }
+bold_italic = { style = "Bold Italic", family = "MapleMono Nerd Font" }
+italic = { style = "Italic", family = "MapleMono Nerd Font" }
+normal = { style = "Regular", family = "MapleMono Nerd Font" }
 offset = { x = 0, y = 2 }
 size = 14
 
@@ -20,9 +23,9 @@ save_to_clipboard = true
 
 [window]
 blur = true
-dimensions = { columns = 117, lines = 27 }
+dimensions = { columns = 145, lines = 35 }
 dynamic_padding = true
 opacity = 0.95
-padding = { x = 3, y = 3 }
+padding = { x = 0, y = 0 }
 startup_mode = "Windowed"
 decorations = "none"
